@@ -1,0 +1,653 @@
+.carousel-img img{
+    height: 100vh;
+    width: 100%;
+}
+.nav-color{
+
+    background-color: rgb(0, 0, 0) !important;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    padding: 20px 0px;
+}
+.link{
+    color: greenyellow !important;
+}
+.nav-link{
+    color: greenyellow;
+    padding: 0px 20px !important;
+}
+.nav-link:hover{
+    color: gray;
+}
+.navbar-brand{
+    color: white;
+}
+.c-fluid{
+    padding: 0px 30px;
+}
+.form-control{
+
+    border-radius: 20px;
+    background-color: #ffffff87;
+
+}
+.caption-1{
+        top: 230px;
+        left: 200px;
+        width: 30%;
+        text-align: start;
+        bottom: 500px;
+        padding: 10px 20px;
+       
+    
+}
+.caption-1 p{
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.717);
+    margin-top: 20px;
+}
+.caption-1 h3{
+    color: rgba(255, 255, 255, 0.831);
+    font-size: 28px;
+}
+.topbook-div{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.caption-2{
+    top: 130px;
+    left: 60%;
+    width: 30%;
+    text-align: start;
+    bottom: 500px;
+  
+    padding: 20px;
+
+}
+.caption-2 p{
+font-size: 15px;
+color: rgba(234, 224, 224, 0.579);
+margin-top: 20px;
+}
+.caption-2 h3{
+color: rgba(255, 255, 255, 0.748);
+font-size: 28px;
+}
+.caption-3{
+    top: 10%;
+    left: 34%;
+    width: 30%;
+    text-align: start;
+    bottom: 500px;
+  
+    padding: 20px;
+
+}
+.caption-3 p{
+font-size: 15px;
+color: rgba(234, 224, 224, 0.579);
+margin-top: 20px;
+}
+.caption-3 h3{
+color: rgba(255, 255, 255, 0.748);
+font-size: 28px;
+}
+.top-list img{
+        width: 200px;
+        height: 200px;
+        border-radius:20px ;
+}
+.top-list img:hover{
+    transform: scale(1.1);
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 2s;
+}
+.top-list{
+    padding: 30px 0px;
+    border: solid 2px gray;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    background:linear-gradient(45deg, #64B3F4, #C2E59C);
+    box-shadow: 8px -6px 6px;
+    
+}
+.top-col{
+    display: flex;
+    justify-content: center;
+   
+    
+}
+.top-list li{
+    list-style: none;
+    padding: 15px;
+   
+    overflow: hidden;
+}
+.topbook-div h1{
+    font-family:"fangsong";
+   
+    box-shadow: 0px 0px 3px;
+    padding: 10px 94px;
+
+}
+.ft-container{
+    background-color: black;
+    color: grey;
+    height: 300px;
+}
+.ft-div{
+    display: flex;
+    justify-content: center;
+    border-bottom: solid 2px gray;
+
+   
+}
+.ft-div h5{
+    padding: 30px 0px;
+}
+.ft-para{
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+}
+
+.top-btn-div{
+    display: flex;
+    justify-content: end;
+}
+.top-btn-div svg {
+    color: unset;
+  margin-top: 8px;
+  margin-right: 8px;
+}
+
+.Count-span{
+    background-color: brown;
+    padding: 0px 8px;
+    border-radius: 60px;
+    margin-right: 5px;
+}
+.link{
+    text-decoration: none;
+    color:white;
+}
+.favorite-table{
+    /* padding: 50px 30px; */
+    background: url(https://th.bing.com/th/id/R.64ec2963d1f2127e43b25638b317d3fc?rik=PjeVsFxvo1Nn2g&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f12%2fAbstract-Green-Wallpaper-HD.jpg&ehk=U4JPpq0tgVDezHTGiBlJGPfTcB0GvW7cNF6bt2BfosA%3d&risl=&pid=ImgRaw&r=0);
+
+
+}
+.img-head{
+    width: 100px;
+}
+
+.favorite-table th{
+    background-color: black;
+    color: green;
+    font-family: 'Courier New', Courier, monospace;
+}
+.delete{
+    background-color:#aa0a0a;
+    font-size: 10px;
+    padding: 5px 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    color: white;
+    width: 65px;
+
+}
+.delete:hover{
+    background-color:#973c3c;
+   
+    
+}
+.favorite-table td{
+    background-color: rgba(128, 128, 128, 0.494);
+}
+.fav-head{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+.fav-head h3{
+    font-family: 'math';
+    color: aliceblue;
+    box-shadow: 0px 0px 2px;
+    padding: 10px 30px;
+}
+
+.fav-head label{
+display: flex;
+justify-content: end;
+margin-left: 40PX;
+}
+.fav-total{
+    display: flex;
+    justify-content: end;
+    padding-right: 40px;
+}
+.fav-total label{
+
+    background-color: cadetblue;
+    padding: 10px 15px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+.details-container{
+    padding-top: 100px; 
+    height: 100vh;
+    background:linear-gradient(to right,#FAD0C4,#FFD1FF);
+   
+       
+}
+.details-img-div{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    border: solid 1px gray;
+    border-radius: 20px;
+    background:linear-gradient(to bottom,#E8DBFC,#F8F9D2);
+
+}
+.details-img-div img{
+    border-radius: 20px;
+    height: 400px;
+}
+.details-btn{
+
+    border-radius: 10px;
+    width: 830px;
+    background-color: black !important;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+.details-btn:hover{
+    background: white !important;
+    color: black !important;
+  
+    
+}
+.details-div{
+    border: solid 1px gray;
+    padding: 20px;
+    border-radius: 20px;
+    background:linear-gradient(to bottom,#E8DBFC,#F8F9D2);
+
+}
+.details-div h4{
+    border-bottom: solid 1px gray;
+    padding-bottom: 10px;
+}
+.details-div p{
+    border-bottom: solid 1px gray;
+    padding-bottom: 10px;
+}
+.details-div h6{
+    border-bottom: solid 1px gray;
+    padding-bottom: 10px;
+}
+
+
+.white-div{
+    padding: 15px;
+   
+   
+}
+.span-increment{
+    display: flex;
+    align-items: center;
+    /* padding-left: 10px;
+    padding-right: 10px; */
+    background-color: aliceblue;
+    justify-content: center;
+}
+.svg2{
+    margin-left: 10px;
+    background-color: green;
+
+}
+.svg1{
+    margin-right: 10px;
+    background-color: darksalmon;
+}
+.totalprice-data{
+    background-color: black !important;
+}
+.buy-btn{
+    background-color: #06b2e1 !important;
+    font-size: 11px;
+    width: 82px;
+}
+.hombook-content{
+ 
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: solid 1px gray;
+    background:linear-gradient(45deg, #E3FDF5, #FFE6FA);
+}
+
+.table-container{
+    /* background: linear-gradient(45deg, #233b10, #000000); */
+background: url(https://images.freecreatives.com/wp-content/uploads/2016/02/Sparkles-Yellow-Background-Wallpaper.jpg);
+    
+}
+.bookname{
+    color: aliceblue !important;
+    font-weight: 700;
+
+}
+.bookname-quantity{
+    color: black !important;
+
+}
+.fantasy-container{
+    padding-top: 100px;
+    background: linear-gradient(to right,#FFB849, #421057, #F45509); 
+}
+
+.fantasy-container img{
+    height: 200px;
+}
+.fantasy-container .card{
+ 
+    
+     width: 18rem;
+     height: 404px;
+     margin-bottom: 20px;
+    
+}
+.fantasy-container .card-text{
+    font-size: 10px;
+}
+.fantasy-container span{
+    margin-left: 197px;
+}
+
+.fantasy-container svg:hover{
+    cursor: pointer;
+}
+.fantasy-content{
+    margin-top: 5px;
+}
+.fantasy-col{
+    display: flex;
+    justify-content: center;
+   
+}
+.fantasy-container .card-body{
+    /* background: linear-gradient(45deg, #00defb, #bc8e4a); */
+}
+.fantasy-container button{
+    /* background: linear-gradient(45deg, #ff7f0f, #000000); */
+    background-color: #000000;
+}
+.fantasy-container .card-title{
+    font-size: 15px;
+    font-weight: bolder;
+}
+.fantasy-container svg{
+    color: black(153, 20, 20);
+    
+}
+
+.sciencefiction-maindiv{
+    margin-bottom: 20px;
+    padding: 10px;
+    border: solid 1px gray;
+    background-color: antiquewhite;
+    box-shadow: 4px 6px 7px
+}
+
+
+.sciencefiction-maindiv img{
+    width: 100%;
+    height: 200px;
+}
+
+.sciencefiction-maindiv p{
+    font-size: 10px;
+}
+
+.cart-svg{
+display: flex;
+justify-content: end;
+padding: 10px 10px;
+}
+
+.sciencefiction-maindiv svg{
+    margin-left: 190px;
+    cursor: pointer;
+}
+.fiction-content{
+    
+    padding: 7px;
+    height: 154px;
+}
+.fiction-container{
+    padding-top: 100px;
+    background: linear-gradient(to bottom, #FF6692, #A86BB9);
+}
+.fantassy-maindiv{
+    padding: 10px;
+    border: solid 1px gray;
+    height: 402px;
+    margin-bottom: 15px;
+    font-size: 10px;
+    background-color: #faebd7cc;
+    box-shadow: 4px 6px 7px
+}
+.fantassy-maindiv img{
+    width: 100%;
+    height: 200px;
+}
+.top-container{
+    /* background: no-repeat url(https://www.hdwallpapers.in/download/deep_space_nebula_4k_8k-3840x2400.jpg); */
+}
+/* css code */
+
+.image-div img{
+    width: 100%;
+    height: 200px;
+}
+.main-div{
+    padding: 10px;
+    border: solid 1px gray;
+    background-color: antiquewhite;
+     margin-bottom: 15px;
+     font-size: 10px;
+     height: 350px;
+     box-shadow: 4px 6px 7px ;
+}
+.container-main{
+    padding-top: 100px;
+   
+}
+.historical-content{
+    background: linear-gradient(to left, #682179, #009E5C);
+    height: 1000px;
+}
+
+.content-div{
+    margin-top: 5px;
+}
+.main-div span{
+    margin-left: 205px;
+}
+.dropdown-menu{
+    background:linear-gradient(to bottom,#FFF5C3,#9452A5);
+}
+.link-books{
+    text-decoration: none;
+    color: greenyellow;
+    margin-left: 10px;
+}
+.available-img-div img{
+    width: 100%;
+    height: 200px;
+}
+.available-main-div{
+    padding: 10px;
+    border: solid 1px gray;
+    margin-bottom: 20px;
+    height: 442px;
+    background: linear-gradient(to bottom,#92FFC0,#002661);
+}
+.available-content-div p{
+    font-size: 10px;
+}
+.available-content-div h5{
+    font-size: 13px;
+    padding-top:  5px;
+    font-weight: bold;
+}
+.available-content-div h6{
+    font-size: 11px; 
+}
+.price-span{
+    font-size: 13px;
+    color: orange;
+}
+.action-div{
+    display: flex;
+    justify-content: space-between;
+}
+.carousel-img{
+    padding-top: 55px;
+}
+.btn{
+   background-color: orange;
+    color: white;
+    border-color: black;
+}
+.available-container{
+    padding-top: 100px;
+    background: url(https://wallpapers.com/images/hd/green-blue-galaxy-with-celestial-bodies-asnokt9uqozizcjf.jpg);
+}
+.available-content-div{
+    color: aliceblue;
+}
+.addbook-container{
+    padding-top: 150px;
+    background-color: aliceblue;
+    background: linear-gradient(to top,#F05F57,#360940);
+    height: 100vh;
+}
+.add-btn{
+    display: flex;
+    justify-content: end;
+    padding-bottom: 30px;
+}
+.add-col{
+    background-color: #f5f5dc70;
+    box-shadow: 4px -4px 4px;
+    margin-bottom: 42px;
+}
+.form-add{
+    padding: 10px;
+}
+.submit-btn{
+    background-color: darkcyan;
+
+}
+.sub-div{
+    display: flex;
+    justify-content: center;
+}
+.edit-container{
+    padding-top: 150px;
+    background: linear-gradient(to left,#FFFEFF,#D7FFFE);
+    height: 100vh;
+}
+.status{
+    margin-left: 147px;
+}
+.pen{
+    color: yellow;
+}
+.cart{
+    color: pink;
+}
+.trash{
+    color:red
+}
+.span-color{
+    background-color: black;
+    padding: 10px;
+    border-radius: 31px;
+}
+.add-btn button{
+    background: linear-gradient(45deg, #11f700, #d9490efc) !important;
+}
+#navbarScroll{
+    margin-left: 114px;
+    margin-right: 36px;
+}
+.home-row{
+    justify-content: center;
+}
+.romance-content{
+    background: linear-gradient(to left , #221738,#3C7055);
+    height: 100vh;
+}
+.mystery-container{
+    background: linear-gradient(to left , #122D94,#D5EFF4);
+    height: 100vh;
+}
+.thriller-container{
+    background: linear-gradient(to left , #AFF1DA,#F9EA8F);
+    height: 100vh;
+}
+.horror-container{
+    background: linear-gradient(to left , #C79081,#DFA579);
+    height: 100vh;
+}
+.literary-fiction-container{
+    background: linear-gradient(to left , #EE9CA7,#FFDDE1);
+    height: 100vh;
+}
+.advanture-container{
+    background: linear-gradient(to left , #FDDB92,#D1FDFF);
+}
+.edit-col{
+
+    background: #deb88757;
+    padding: 15px;
+    box-shadow: 5px  5px 5px;
+
+}
+.search-container{
+    padding-top: 100px;
+}
+.search-main{
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(to left , #FDDB92,#D1FDFF);
+    padding: 10px 15px;
+    
+}
+.search-img img{
+    width: 100%;
+    height: 200px;
+}
+
+.search-col{
+    padding-bottom: 15px;
+}
+.search-details h5{
+    font-size: 18px;
+    
+}
+.search-link{
+    text-decoration: none;
+    color: #000000;
+}
+.search-section{
+    background: linear-gradient(to left , #E95D38,#3FDDA9);
+    width: fit-content;
+    padding: 10px 15px;
+    border-radius: 15px;
+}

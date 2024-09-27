@@ -1,0 +1,949 @@
+[
+    
+    {
+        "id": "1",
+        "Bookname": "To Kill a Mockingbird",
+        "Author": "Harper Lee",
+        "Price": "10.99",
+        "Description": "A novel about the serious issues of rape and racial inequality.",
+        "Category": "Fiction",
+        "Image": "https://bigaband.com/wp-content/uploads/2020/06/TKAMB_1000_3D.jpg",
+        "status": true
+    },
+    {
+        "id": "2",
+        "Bookname": "1984",
+        "Author": "George Orwell",
+        "Price": "8.99",
+        "Description": "A dystopian novel set in a totalitarian society ruled by Big Brother.",
+        "Category": "Science Fiction",
+        "Image": "https://penguinseriesdesign.com/wp-content/uploads/2018/03/signet-1984-21.jpg",
+        "status": true
+    },
+    {
+        "id": "3",
+        "Bookname": "Moby Dick",
+        "Author": "Herman Melville",
+        "Price": "11.50",
+        "Description": "The narrative of Captain Ahab's obsessive quest to kill the white whale, Moby Dick.",
+        "Category": "Adventure",
+        "Image": "https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781681779133/moby-dick-9781681779133_hr.jpg",
+        "status": true
+    },
+    {
+        "id": "4",
+        "Bookname": "Pride and Prejudice",
+        "Author": "Jane Austen",
+        "Price": "9.99",
+        "Description": "A romantic novel that charts the emotional development of the protagonist, Elizabeth Bennet.",
+        "Category": "Romance",
+        "Image": "https://th.bing.com/th/id/OIP.zTOfQLKmA-J4TziHbINC8wHaKl?rs=1&pid=ImgDetMain",
+        "status": true
+    },
+    {
+        "id": "5",
+        "Bookname": "The Great Gatsby",
+        "Author": "F. Scott Fitzgerald",
+        "Price": "10.00",
+        "Description": "A novel about the American dream and the disillusionment of the Jazz Age.",
+        "Category": "Classic",
+        "Image": "https://5.imimg.com/data5/SELLER/Default/2022/11/LX/OR/SD/25501738/the-great-gatsby-hardcover-500x500.jpg",
+        "status": true
+    },
+    {
+        "id": "6",
+        "Bookname": "War and Peace",
+        "Author": "Leo Tolstoy",
+        "Price": "12.99",
+        "Description": "A historical novel that chronicles the French invasion of Russia and its impact.",
+        "Category": "Historical Fiction",
+        "Image": "https://brahas.com/images/com_hikashop/upload/cover_612380889.jpg",
+        "status": true
+    },
+    {
+        "id": "7",
+        "Bookname": "The Catcher in the Rye",
+        "Author": "J.D. Salinger",
+        "Price": "7.99",
+        "Description": "A novel about teenage rebellion and alienation.",
+        "Category": "Fiction",
+        "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/The_Catcher_in_the_Rye_%281951%2C_first_edition_cover%29.jpg/220px-The_Catcher_in_the_Rye_%281951%2C_first_edition_cover%29.jpg",
+        "status": true
+    },
+    {
+        "id": "8",
+        "Bookname": "The Hobbit",
+        "Author": "J.R.R. Tolkien",
+        "Price": "8.50",
+        "Description": "A fantasy novel about the journey of a hobbit named Bilbo Baggins.",
+        "Category": "Fantasy",
+        "Image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuNyZNdyskFoelhyPdCx5nwM0V6D787VnUyDOkTJ51rCYTbq_3UZG21exlEw_D9BKjmZk&usqp=CAU",
+        "status": true
+    },
+    {
+        "id": "9",
+        "Bookname": "Fahrenheit 451",
+        "Author": "Ray Bradbury",
+        "Price": "6.99",
+        "Description": "A dystopian novel about a future society where books are banned.",
+        "Category": "Science Fiction",
+        "Image": "https://m.media-amazon.com/images/I/51hRYjAJSGL._AC_SY200_QL15_.jpg",
+        "status": true
+    },
+    {
+        "id": "10",
+        "Bookname": "Jane Eyre",
+        "Author": "Charlotte Brontë",
+        "Price": "9.50",
+        "Description": "A novel about the experiences of the eponymous heroine, including her growth to adulthood.",
+        "Category": "Classic",
+        "Image": "https://m.media-amazon.com/images/I/41+VR4PNiEL._SY1000_.jpg",
+        "status": true
+    },
+    {
+        "id": "11",
+        "Bookname": "The Alchemist",
+        "Author": "Paulo Coelho",
+        "Price": "8.99",
+        "Description": "A novel about a shepherd's journey to find a hidden treasure.",
+        "Category": "Fiction",
+        "Image": "https://i0.wp.com/SailEMagazine.com/wp-content/uploads/2015/04/the-alchemist-paulo-coelho-040313-marg.jpg?resize=314%2C475",
+        "status": true
+    },
+    {
+        "id": "12",
+        "Bookname": "The Chronicles of Narnia",
+        "Author": "C.S. Lewis",
+        "Price": "10.50",
+        "Description": "A series of fantasy novels set in the fictional realm of Narnia.",
+        "Category": "Fantasy",
+        "Image": "https://weneedtotalkaboutbooks.com/wp-content/uploads/2016/05/the-chronicles-of-narnia.jpg?w=1200",
+        "status": true
+    },
+    {
+        "id": "13",
+        "Bookname": "The Lord of the Rings",
+        "Author": "J.R.R. Tolkien",
+        "Price": "15.99",
+        "Description": "An epic fantasy novel about the struggle between good and evil in Middle-earth.",
+        "Category": "Fantasy",
+        "Image": "https://m.media-amazon.com/images/I/71VjmMcE-rL._AC_UF1000,1000_QL80_.jpg",
+        "status": true
+    },
+    {
+        "id": "14",
+        "Bookname": "The Kite Runner",
+        "Author": "Khaled Hosseini",
+        "Price": "7.50",
+        "Description": "A novel about the unlikely friendship between a wealthy boy and the son of his father's servant.",
+        "Category": "Fiction",
+        "Image": "https://m.media-amazon.com/images/I/81IzbD2IiIL._AC_UF1000,1000_QL80_.jpg",
+        "status": true
+    },
+    {
+        "id": "15",
+        "Bookname": "Brave New World",
+        "Author": "Aldous Huxley",
+        "Price": "6.99",
+        "Description": "A dystopian novel set in a futuristic world state where the populace is controlled by technology and conditioning.",
+        "Category": "Science Fiction",
+        "Image": "https://cdn.kobo.com/book-images/6f07a0e9-8ca8-4b28-982c-7898ac591744/353/569/90/False/brave-new-world-79.jpg",
+        "status": true
+    },
+    {
+        "id": "16",
+        "Bookname": "The Da Vinci Code",
+        "Author": "Dan Brown",
+        "Price": "9.99",
+        "Description": "A mystery thriller that explores the secrets of the Holy Grail.",
+        "Category": "Thriller",
+        "Image": "https://m.media-amazon.com/images/I/815WORuYMML._AC_UF1000,1000_QL80_.jpg",
+        "status": true
+    },
+    {
+        "id": "17",
+        "Bookname": "The Hunger Games",
+        "Author": "Suzanne Collins",
+        "Price": "8.99",
+        "Description": "A dystopian novel set in a future where children are forced to compete in a deadly televised game.",
+        "Category": "Science Fiction",
+        "Image": "https://m.media-amazon.com/images/I/61I24wOsn8L._AC_UF1000,1000_QL80_.jpg",
+        "status": true
+    },
+    {
+        "id": "18",
+        "Bookname": "The Catch-22",
+        "Author": "Joseph Heller",
+        "Price": "10.50",
+        "Description": "A satirical novel about the absurdities of war and military life.",
+        "Category": "Fiction",
+        "Image": "https://m.media-amazon.com/images/I/71kcV9sURbL._AC_UF1000,1000_QL80_.jpg",
+        "status": true
+    },
+    {
+        "id": "19",
+        "Bookname": "Crime and Punishment",
+        "Author": "Fyodor Dostoevsky",
+        "Price": "12.99",
+        "Description": "A psychological novel about a young man's moral dilemmas after committing a murder.",
+        "Category": "Classic",
+        "Image": "https://th.bing.com/th/id/OIP.5GHhD6EJYbAlqP9zSXso2AHaLP?pid=ImgDet&rs=1",
+        "status": true
+    },
+    {
+        "id": "20",
+        "Bookname": "The Picture of Dorian Gray",
+        "Author": "Oscar Wilde",
+        "Price": "7.50",
+        "Description": "A novel about a man who remains young while his portrait ages, revealing his inner corruption.",
+        "Category": "Fiction",
+        "Image": "https://i.pinimg.com/474x/5e/f2/1f/5ef21fd64d2d4e43c5c5d15f2d77e399.jpg",
+        "status": true
+    }
+,
+{
+    "id": "21",
+    "Bookname": "The Shining",
+    "Author": "Stephen King",
+    "Price": "7.99",
+    "Description": "A horror novel about a family isolated in a haunted hotel during the winter.",
+    "Category": "Horror",
+    "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/The_Shining_%281977%29_front_cover%2C_first_edition.jpg/640px-The_Shining_%281977%29_front_cover%2C_first_edition.jpg",
+    "status": true
+},
+{
+    "id": "22",
+    "Bookname": "Wuthering Heights",
+    "Author": "Emily Brontë",
+    "Price": "9.50",
+    "Description": "A novel about the tumultuous relationships between the inhabitants of Wuthering Heights.",
+    "Category": "Classic",
+    "Image": "https://m.media-amazon.com/images/I/81-8dCuxEsL._AC_UF1000,1000_QL80_.jpg",
+    "status": true
+},
+{
+    "id": "23",
+    "Bookname": "The Scarlet Letter",
+    "Author": "Nathaniel Hawthorne",
+    "Price": "8.50",
+    "Description": "A novel about a woman who is shunned by her community after bearing an illegitimate child.",
+    "Category": "Classic",
+    "Image": "https://m.media-amazon.com/images/I/61pLRWYTbXL._AC_UF1000,1000_QL80_.jpg",
+    "status": true
+},
+{
+    "id": "24",
+    "Bookname": "Anna Karenina",
+    "Author": "Leo Tolstoy",
+    "Price": "12.99",
+    "Description": "A novel that explores the complexities of love, family, and society in 19th-century Russia.",
+    "Category": "Classic",
+    "Image": "https://m.media-amazon.com/images/I/71z-a9gKZ4L._AC_UF894,1000_QL80_.jpg",
+    "status": true
+},
+{
+    "id": "25",
+    "Bookname": "Dracula",
+    "Author": "Bram Stoker",
+    "Price": "8.99",
+    "Description": "A Gothic novel about the vampire Count Dracula's attempt to move from Transylvania to England.",
+    "Category": "Horror",
+    "Image": "https://rukminim2.flixcart.com/image/850/1000/xif0q/book/o/h/z/dracula-original-imagmfcbvggggz93.jpeg?q=90&crop=false",
+    "status": true
+},
+{
+    "id": "26",
+    "Bookname": "Frankenstein",
+    "Author": "Mary Shelley",
+    "Price": "7.99",
+    "Description": "A novel about a scientist who creates a monstrous being through an unorthodox experiment.",
+    "Category": "Science Fiction",
+    "Image": "https://mpd-biblio-covers.imgix.net/9780812551501.jpg",
+    "status": true
+},
+{
+    "id": "27",
+    "Bookname": "The Picture of Dorian Gray",
+    "Author": "Oscar Wilde",
+    "Price": "9.50",
+    "Description": "A novel about a man who remains eternally youthful while his portrait ages.",
+    "Category": "Classic",
+    "Image": "https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781476788128/the-picture-of-dorian-gray-9781476788128_hr.jpg",
+    "status": true
+},
+{
+    "id": "28",
+    "Bookname": "Les Misérables",
+    "Author": "Victor Hugo",
+    "Price": "14.99",
+    "Description": "A novel that follows the lives of several characters, focusing on the struggles of ex-convict Jean Valjean.",
+    "Category": "Historical Fiction",
+    "Image": "https://covers.storytel.com/jpg-640/9781504043588.30f6b3f3-97bc-4add-9f80-40c4636834fe?optimize=high&quality=70",
+    "status": true
+},
+{
+    "id": "29",
+    "Bookname": "The Count of Monte Cristo",
+    "Author": "Alexandre Dumas",
+    "Price": "13.50",
+    "Description": "A novel about a man's quest for revenge after being wrongfully imprisoned.",
+    "Category": "Adventure",
+    "Image": "https://m.media-amazon.com/images/I/41PgrIe9HOL._SY780_.jpg",
+    "status": true
+},
+{
+    "id": "30",
+    "Bookname": "A Tale of Two Cities",
+    "Author": "Charles Dickens",
+    "Price": "10.50",
+    "Description": "A novel set during the French Revolution that explores themes of resurrection and sacrifice.",
+    "Category": "Historical Fiction",
+    "Image": "https://images.squarespace-cdn.com/content/v1/5dc21d198c1cfd4ef901f025/2488a60f-5f9a-460b-85e1-9235954325af/tale-of-two-cities-book-cover.jpeg",
+    "status": true
+},
+{
+    "id": "31",
+    "Bookname": "The Secret Garden",
+    "Author": "Frances Hodgson Burnett",
+    "Price": "7.50",
+    "Description": "A novel about a young girl's discovery of a hidden, neglected garden.",
+    "Category": "Children's Literature",
+    "Image": "https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781442457508/the-secret-garden-9781442457508_lg.jpg",
+    "status": true
+},
+{
+    "id": "32",
+    "Bookname": "Little Women",
+    "Author": "Louisa May Alcott",
+    "Price": "9.99",
+    "Description": "A novel about the lives of four sisters during the Civil War.",
+    "Category": "Classic",
+    "Image": "https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781534462229/little-women-9781534462229_hr.jpg",
+    "status": true
+},
+{
+    "id": "33",
+    "Bookname": "Crime and Punishment",
+    "Author": "Fyodor Dostoevsky",
+    "Price": "11.99",
+    "Description": "A novel that explores the psychological torment of a man who commits a murder.",
+    "Category": "Classic",
+    "Image": "https://m.media-amazon.com/images/I/71O2XIytdqL._AC_UF1000,1000_QL80_.jpg",
+    "status": true
+},
+{
+    "id": "34",
+    "Bookname": "Don Quixote",
+    "Author": "Miguel de Cervantes",
+    "Price": "12.50",
+    "Description": "A novel about the adventures of a man who believes he is a knight-errant.",
+    "Category": "Classic",
+    "Image": "https://m.media-amazon.com/images/I/61NlxaWjCYL._AC_UF1000,1000_QL80_.jpg",
+    "status": true
+},
+{
+    "id": "35",
+    "Bookname": "The Hunchback of Notre-Dame",
+    "Author": "Victor Hugo",
+    "Price": "10.50",
+    "Description": "A novel about the deformed bell ringer of Notre-Dame Cathedral in Paris.",
+    "Category": "Historical Fiction",
+    "Image": "https://m.media-amazon.com/images/I/71DbvL0PmnL._AC_UF1000,1000_QL80_.jpg",
+    "status": true
+},
+{
+    "id": "36",
+    "Bookname": "The Time Machine",
+    "Author": "H.G. Wells",
+    "Price": "6.99",
+    "Description": "A science fiction novel about a man's journey through time.",
+    "Category": "Science Fiction",
+    "Image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1327942880i/2493.jpg",
+    "status": true
+},
+{
+    "id": "37",
+    "Bookname": "The War of the Worlds",
+    "Author": "H.G. Wells",
+    "Price": "7.99",
+    "Description": "A science fiction novel about an alien invasion of Earth.",
+    "Category": "Science Fiction",
+    "Image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRy3fpHRMBkEyZULh108U6SR4j5WfF7lkF76w&s",
+    "status": true
+},
+{
+    "id": "38",
+    "Bookname": "The Invisible Man",
+    "Author": "H.G. Wells",
+    "Price": "7.50",
+    "Description": "A science fiction novel about a man who becomes invisible.",
+    "Category": "Science Fiction",
+    "Image": "https://m.media-amazon.com/images/I/51tXKv185IL._AC_UF1000,1000_QL80_.jpg",
+    "status": true
+},
+{
+    "id": "39",
+    "Bookname": "The Island of Doctor Moreau",
+    "Author": "H.G. Wells",
+    "Price": "6.99",
+    "Description": "A science fiction novel about a scientist who conducts experiments on animals to turn them into humans.",
+    "Category": "Science Fiction",
+    "Image": "https://cdn.kobo.com/book-images/b7758f94-5b5b-4820-8d62-74b56ae8cb61/353/569/90/False/the-island-of-doctor-moreau-illustrated-edition.jpg",
+    "status": true
+},
+{
+    "id": "40",
+    "Bookname": "The Strange Case of Dr. Jekyll and Mr. Hyde",
+    "Author": "Robert Louis Stevenson",
+    "Price": "7.99",
+    "Description": "A novella about a lawyer who investigates the strange relationship between his friend Dr. Jekyll and the evil Mr. Hyde.",
+    "Category": "Horror",
+    "Image": "https://gillespie-writing.com/wp-content/uploads/2021/10/drjekyll1.jpg?w=600",
+    "status": true
+}
+,
+{
+    "id": "41",
+    "Bookname": "Treasure Island",
+    "Author": "Robert Louis Stevenson",
+    "Price": "8.99",
+    "Description": "A novel about a young boy's adventure to find buried treasure.",
+    "Category": "Adventure",
+    "Image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtGzqDNztYgI9999_XljaRWtS1SrtaxvwFjg&s",
+    "status": true
+},
+{
+    "id": "42",
+    "Bookname": "Gulliver's Travels",
+    "Author": "Jonathan Swift",
+    "Price": "9.50",
+    "Description": "A novel about the travels of Lemuel Gulliver to various strange lands.",
+    "Category": "Adventure",
+    "Image": "https://cdn01.sapnaonline.com/product_media/9781905863198/md_9781905863198.jpg",
+    "status": true
+},
+{
+    "id": "43",
+    "Bookname": "Moby-Dick",
+    "Author": "Herman Melville",
+    "Price": "11.50",
+    "Description": "The narrative of Captain Ahab's obsessive quest to kill the white whale, Moby Dick.",
+    "Category": "Adventure",
+    "Image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1669512309i/63849929.jpg",
+    "status": true
+},
+{
+    "id": "44",
+    "Bookname": "The Adventures of Sherlock Holmes",
+    "Author": "Arthur Conan Doyle",
+    "Price": "8.99",
+    "Description": "A collection of twelve short stories featuring the detective Sherlock Holmes.",
+    "Category": "Mystery",
+    "Image": "https://m.media-amazon.com/images/I/51j7zrSt+VL._SL500_.jpg",
+    "status": true
+},
+{
+    "id": "45",
+    "Bookname": "A Study in Scarlet",
+    "Author": "Arthur Conan Doyle",
+    "Price": "7.99",
+    "Description": "The first novel featuring the detective Sherlock Holmes.",
+    "Category": "Mystery",
+    "Image": "https://cdn.kobo.com/book-images/71230f05-a62d-4dd2-b441-ef8515c08054/1200/1200/False/a-study-in-scarlet-307.jpg",
+    "status": true
+},
+{
+    "id": "46",
+    "Bookname": "The Hound of the Baskervilles",
+    "Author": "Arthur Conan Doyle",
+    "Price": "9.99",
+    "Description": "A novel about the investigation of a mysterious death in the Baskerville family.",
+    "Category": "Mystery",
+    "Image": "https://m.media-amazon.com/images/I/61zatwCfS5L._AC_UF1000,1000_QL80_.jpg",
+    "status": true
+},
+{
+    "id": "47",
+    "Bookname": "The Sign of the Four",
+    "Author": "Arthur Conan Doyle",
+    "Price": "8.50",
+    "Description": "A novel about Sherlock Holmes and Dr. Watson investigating a treasure and a secret pact.",
+    "Category": "Mystery",
+    "Image": "https://cdn.kobo.com/book-images/b1f0dc95-61d1-41df-9e8f-a7b2b8b50a11/1200/1200/False/the-sign-of-the-four-173.jpg",
+    "status": true
+},
+{
+    "id": "48",
+    "Bookname": "The Valley of Fear",
+    "Author": "Arthur Conan Doyle",
+    "Price": "9.50",
+    "Description": "A novel about Sherlock Holmes solving a murder mystery in a castle.",
+    "Category": "Mystery",
+    "Image": "https://m.media-amazon.com/images/I/81+W81l2cvL._AC_UF1000,1000_QL80_.jpg",
+    "status": true
+},
+{
+    "id": "49",
+    "Bookname": "The Lost World",
+    "Author": "Arthur Conan Doyle",
+    "Price": "8.99",
+    "Description": "A novel about an expedition to a plateau in the Amazon basin where prehistoric animals still survive.",
+    "Category": "Adventure",
+    "Image": "https://m.media-amazon.com/images/I/71sOegzm8dL._AC_UF1000,1000_QL80_.jpg",
+    "status": true
+},
+{
+    "id": "50",
+    "Bookname": "The Adventures of Tom Sawyer",
+    "Author": "Mark Twain",
+    "Price": "7.99",
+    "Description": "A novel about the adventures of a young boy growing up along the Mississippi River.",
+    "Category": "Adventure",
+    "Image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyN0OOiK91vhpr4fzBh7JqU8c8zwWwV858TA&s",
+    "status": true
+},
+{
+    "id": "51",
+    "Bookname": "The Prince and the Pauper",
+    "Author": "Mark Twain",
+    "Price": "8.50",
+    "Description": "A novel about two boys who exchange roles and experience each other's lives.",
+    "Category": "Historical Fiction",
+    "Image": "https://cdn.kobo.com/book-images/8abbade3-8dde-451d-93cf-5dbdeb9dcd5d/1200/1200/False/the-prince-and-the-pauper-200.jpg",
+    "status": true
+},
+{
+    "id": "52",
+    "Bookname": "Adventures of Huckleberry Finn",
+    "Author": "Mark Twain",
+    "Price": "9.99",
+    "Description": "A novel about a young boy's journey down the Mississippi River with an escaped slave.",
+    "Category": "Adventure",
+    "Image": "https://cdn2.penguin.com.au/covers/400/9780099572978.jpg",
+    "status": true
+},
+{
+    "id": "53",
+    "Bookname": "The Call of the Wild",
+    "Author": "Jack London",
+    "Price": "7.99",
+    "Description": "A novel about a domesticated dog that returns to the wild.",
+    "Category": "Adventure",
+    "Image": "https://m.media-amazon.com/images/I/81gC9oXiMHL._AC_UF1000,1000_QL80_.jpg",
+    "status": true
+},
+{
+    "id": "54",
+    "Bookname": "White Fang",
+    "Author": "Jack London",
+    "Price": "8.99",
+    "Description": "A novel about a wild wolfdog's journey to domestication.",
+    "Category": "Adventure",
+    "Image": "https://m.media-amazon.com/images/I/A136JxMIrEL._AC_UF1000,1000_QL80_.jpg",
+    "status": true
+},
+{
+    "id": "55",
+    "Bookname": "The Jungle Book",
+    "Author": "Rudyard Kipling",
+    "Price": "7.50",
+    "Description": "A collection of stories about a boy named Mowgli who is raised by wolves in the Indian jungle.",
+    "Category": "Childrens Literature",
+    "Image": "https://m.media-amazon.com/images/I/61F1kuSiIiL._SL500_.jpg",
+    "status": true
+},
+{
+    "id": "56",
+    "Bookname": "Kim",
+    "Author": "Rudyard Kipling",
+    "Price": "8.50",
+    "Description": "A novel about an orphan boy who becomes a spy for the British secret service in India.",
+    "Category": "Adventure",
+    "Image": "https://m.media-amazon.com/images/I/71XI4nC9iaL._AC_UF1000,1000_QL80_.jpg",
+    "status": true
+},
+{
+    "id": "57",
+    "Bookname": "The Phantom of the Opera",
+    "Author": "Gaston Leroux",
+    "Price": "8.99",
+    "Description": "A novel about a disfigured musical genius who haunts the Paris Opera House.",
+    "Category": "Horror",
+    "Image": "https://m.media-amazon.com/images/I/61nE-VQxU5L._AC_UF1000,1000_QL80_.jpg",
+    "status": true
+},
+{
+    "id": "58",
+    "Bookname": "Around the World in Eighty Days",
+    "Author": "Jules Verne",
+    "Price": "7.99",
+    "Description": "A novel about a man who attempts to circumnavigate the globe in 80 days.",
+    "Category": "Adventure",
+    "Image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAtNLZe6SARv6FgX5Lz4S6FTgDMv8RXFPzFA&s",
+    "status": true
+},
+{
+    "id": "59",
+    "Bookname": "Journey to the Center of the Earth",
+    "Author": "Jules Verne",
+    "Price": "8.50",
+    "Description": "A novel about an expedition to the Earth's core.",
+    "Category": "Science Fiction",
+    "Image": "https://m.media-amazon.com/images/I/81TR1ssoUIL._AC_UF1000,1000_QL80_.jpg",
+    "status": true
+},
+{
+    "id": "60",
+    "Bookname": "Twenty Thousand Leagues Under the Sea",
+    "Author": "Jules Verne",
+    "Price": "9.50",
+    "Description": "A novel about the adventures of Captain Nemo in his submarine, the Nautilus.",
+    "Category": "Science Fiction",
+    "Image": "https://m.media-amazon.com/images/I/71pRp9u48fL._AC_UF1000,1000_QL80_.jpg",
+    "status": true
+},
+{
+    "id": "61",
+    "Bookname": "The Mysterious Island",
+    "Author": "Jules Verne",
+    "Price": "8.99",
+    "Description": "A novel about a group of castaways who survive on an uncharted island.",
+    "Category": "Adventure",
+    "Image": "https://cdn.kobo.com/book-images/ead29bf8-e2c1-4b31-9f2b-addb32f370d4/1200/1200/False/the-mysterious-island-149.jpg",
+    "status": true
+},
+{
+    "id": "62",
+    "Bookname": "The Three Musketeers",
+    "Author": "Alexandre Dumas",
+    "Price": "10.50",
+    "Description": "A novel about the adventures of a young man named d'Artagnan who joins three Musketeers in their fight against injustice.",
+    "Category": "Adventure",
+    "Image": "https://images.meesho.com/images/products/224001422/eqz2c_512.webp",
+    "status": true
+},
+{
+    "id": "63",
+    "Bookname": "The Man in the Iron Mask",
+    "Author": "Alexandre Dumas",
+    "Price": "11.99",
+    "Description": "A novel about the mystery of the identity of a prisoner held in the Bastille.",
+    "Category": "Historical Fiction",
+    "Image": "https://cdn.kobo.com/book-images/03c4f1a1-0ea4-4ebc-a989-72d2512548ce/1200/1200/False/the-man-in-the-iron-mask-136.jpg",
+    "status": true
+},
+{
+    "id": "64",
+    "Bookname": "The Black Tulip",
+    "Author": "Alexandre Dumas",
+    "Price": "9.50",
+    "Description": "A novel about a man's quest to grow a black tulip and win a prize.",
+    "Category": "Historical Fiction",
+    "Image": "https://cdn.kobo.com/book-images/019dcce5-d1c6-4384-a807-6862d28fa7fc/1200/1200/False/the-black-tulip-5.jpg",
+    "status": true
+}
+,
+{
+    "id": "65",
+    "Bookname": "The Scarlet Pimpernel",
+    "Author": "Baroness Orczy",
+    "Price": "8.50",
+    "Description": "A novel about an Englishman who rescues French aristocrats during the Reign of Terror.",
+    "Category": "Historical Fiction",
+    "Image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOvhsShJ8Qxg-L0eDqGG-9wjn_mQTtdoQ9VA&s",
+    "status": true
+},
+{
+    "id": "66",
+    "Bookname": "The Countess of Monte Cristo",
+    "Author": "Alexandre Dumas",
+    "Price": "12.50",
+    "Description": "A novel about a young woman who seeks revenge after being wronged.",
+    "Category": "Historical Fiction",
+    "Image": "https://m.media-amazon.com/images/I/41PgrIe9HOL._SY780_.jpg",
+    "status": true
+},
+{
+    "id": "67",
+    "Bookname": "The Brothers Karamazov",
+    "Author": "Fyodor Dostoevsky",
+    "Price": "13.99",
+    "Description": "A novel that explores the ethical debates surrounding faith, doubt, and reason.",
+    "Category": "Classic",
+    "Image": "https://m.media-amazon.com/images/I/71OZJsgZzQL._AC_UF1000,1000_QL80_.jpg",
+    "status": true
+},
+{
+    "id": "68",
+    "Bookname": "Demons",
+    "Author": "Fyodor Dostoevsky",
+    "Price": "12.99",
+    "Description": "A novel about the rise of revolutionary ideals in a provincial Russian town.",
+    "Category": "Classic",
+    "Image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1524586008i/5695.jpg",
+    "status": true
+},
+{
+    "id": "69",
+    "Bookname": "The Idiot",
+    "Author": "Fyodor Dostoevsky",
+    "Price": "11.99",
+    "Description": "A novel about a man whose innocence and faith lead to his destruction.",
+    "Category": "Classic",
+    "Image": "https://cdn.kobo.com/book-images/d131a8e6-4fc2-4fe9-85b3-39e27e45c4a5/353/569/90/False/the-idiot-7.jpg",
+    "status": true
+},
+{
+    "id": "70",
+    "Bookname": "War and Peace",
+    "Author": "Leo Tolstoy",
+    "Price": "12.99",
+    "Description": "A historical novel that chronicles the French invasion of Russia and its impact.",
+    "Category": "Historical Fiction",
+    "Image": "https://m.media-amazon.com/images/I/71wXZB-VtBL._AC_UF1000,1000_QL80_.jpg",
+    "status": true
+},
+{
+    "id": "71",
+    "Bookname": "Anna Karenina",
+    "Author": "Leo Tolstoy",
+    "Price": "12.99",
+    "Description": "A novel that explores the complexities of love, family, and society in 19th-century Russia.",
+    "Category": "Classic",
+    "Image": "https://www.loveliestbookgroup.com/wp-content/uploads/2014/12/cover_annakarenina.jpg",
+    "status": true
+},
+{
+    "id": "72",
+    "Bookname": "Resurrection",
+    "Author": "Leo Tolstoy",
+    "Price": "11.99",
+    "Description": "A novel about a nobleman's spiritual awakening and his attempt to atone for his sins.",
+    "Category": "Classic",
+    "Image": "https://cdn.kobo.com/book-images/7e3c32b4-2b8b-46f7-930a-c570228092a5/1200/1200/False/resurrection-71.jpg",
+    "status": true
+},
+{
+    "id": "73",
+    "Bookname": "Fathers and Sons",
+    "Author": "Ivan Turgenev",
+    "Price": "9.99",
+    "Description": "A novel about the conflict between generations in 19th-century Russia.",
+    "Category": "Classic",
+    "Image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSh2kSl_DrESzdTCC-zqUqHhWnP5OuiHoxMDg&s",
+    "status": true
+},
+{
+    "id": "74",
+    "Bookname": "The Death of Ivan Ilyich",
+    "Author": "Leo Tolstoy",
+    "Price": "8.99",
+    "Description": "A novella about a man facing his own mortality.",
+    "Category": "Classic",
+    "Image": "https://cdn.kobo.com/book-images/fd37400f-dbba-48af-a948-018b6bd39ab9/1200/1200/False/the-death-of-ivan-ilych-26.jpg",
+    "status": true
+},
+{
+    "id": 75,
+    "Bookname": "The Hobbit",
+    "Author": "J.R.R. Tolkien",
+    "Category": "Fantasy",
+    "Image": "https://rukminim2.flixcart.com/image/850/1000/l1mh7rk0/book/4/h/m/the-hobbit-original-imagd5pxef9cjvsu.jpeg?q=20&crop=false",
+    "Description": "A prelude to the Lord of the Rings, The Hobbit follows the adventures of Bilbo Baggins as he embarks on a journey to win a share of the treasure guarded by Smaug the dragon.",
+    "Price": "12.99",
+    "status": true
+},
+{
+    "id": 76,
+    "Bookname": "The Name of the Wind",
+    "Author": "Patrick Rothfuss",
+    "Category": "Fantasy",
+    "Image": "https://m.media-amazon.com/images/I/91UzPegYyjL._AC_UF1000,1000_QL80_.jpg",
+    "Description": "The story of a magically gifted young man named Kvothe, who grows up to become a legendary figure.",
+    "Price": "15.99",
+    "status": true
+},
+{
+    "id": 77,
+    "Bookname": "A Game of Thrones",
+    "Author": "George R.R. Martin",
+    "Category": "Fantasy",
+    "Image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToRrLUYlp4t9F6dNRxbGa2pqfJTOq3kKHkmw&s",
+    "Description": "The first book in the A Song of Ice and Fire series, where noble families vie for control of the Iron Throne in the kingdom of Westeros.",
+    "Price": "18.99",
+    "status": true
+},
+{
+    "id": 78,
+    "Bookname": "Mistborn: The Final Empire",
+    "Author": "Brandon Sanderson",
+    "Category": "Fantasy",
+    "Image": "https://cdn.kobo.com/book-images/967727ac-e2f7-44da-a540-8a6e0c02623f/1200/1200/False/mistborn-trilogy-boxed-set.jpg",
+    "Description": "In a world where ash falls from the sky and mist dominates the night, a skaa street urchin discovers her powers and joins a group of rebels to overthrow the Final Empire.",
+    "Price": "14.99",
+    "status": true
+},
+{
+    "id": 79,
+    "Bookname": "Harry Potter and the Sorcerer's Stone",
+    "Author": "J.K. Rowling",
+    "Category": "Fantasy",
+    "Image": "https://m.media-amazon.com/images/I/81q77Q39nEL._AC_UF1000,1000_QL80_.jpg",
+    "Description": "The first book in the Harry Potter series, where a young boy discovers he's a wizard and attends Hogwarts School of Witchcraft and Wizardry.",
+    "Price": "9.99",
+    "status": true
+},
+{
+    "id": 80,
+    "Bookname": "The Way of Kings",
+    "Author": "Brandon Sanderson",
+    "Category": "Fantasy",
+    "Image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQrahrgm5adWvsxWtgHqTKPYEAay3xGRpvEA&s",
+    "Description": "An epic tale of magic, war, and politics, centered around the mysterious Knights Radiant and the struggle for power in the world of Roshar.",
+    "Price": "17.99",
+    "status": true
+},
+{
+    "id": 81,
+    "Bookname": "The Lies of Locke Lamora",
+    "Author": "Scott Lynch",
+    "Category": "Fantasy",
+    "Image": "https://m.media-amazon.com/images/I/914v1HMS3ML._AC_UF1000,1000_QL80_.jpg",
+    "Description": "Follows the exploits of a master thief, Locke Lamora, as he navigates the dangerous underworld of the city of Camorr.",
+    "Price": "13.99",
+    "status": true
+}
+,
+{
+    "id": 82,
+    "Bookname": "The Eye of the World",
+    "Author": "Robert Jordan",
+    "Category": "Fantasy",
+    "Image": "https://upload.wikimedia.org/wikipedia/en/0/00/WoT01_TheEyeOfTheWorld.jpg",
+    "Description": "The first book in The Wheel of Time series, where three young villagers are thrust into a world of magic and prophecy.",
+    "Price": "16.99",
+    "status": true
+},
+{
+    "id": 83,
+    "Bookname": "The Blade Itself",
+    "Author": "Joe Abercrombie",
+    "Category": "Fantasy",
+    "Image": "https://m.media-amazon.com/images/I/91TSmXK2ydL._AC_UF1000,1000_QL80_.jpg",
+    "Description": "An epic tale of war and politics, where the fates of a barbarian, a torturer, and a nobleman collide in a world on the brink of chaos.",
+    "Price": "14.49",
+    "status": true
+},
+{
+    "id": 84,
+    "Bookname": "The Witcher: The Last Wish",
+    "Author": "Andrzej Sapkowski",
+    "Category": "Fantasy",
+    "Image": "https://m.media-amazon.com/images/I/71nEod9HgvL._AC_UF1000,1000_QL80_.jpg",
+    "Description": "A collection of short stories featuring Geralt of Rivia, a monster hunter for hire in a world filled with magic and dark creatures.",
+    "Price": "11.99",
+    "status": true
+},
+{
+    "id": 85,
+    "Bookname": "The Final Empire",
+    "Author": "Brandon Sanderson",
+    "Category": "Fantasy",
+    "Image": "https://cdn.kobo.com/book-images/177c2d59-1ecf-4e9e-9860-342e42910419/1200/1200/False/the-final-empire-1.jpg",
+    "Description": "In a world where ash falls from the sky and mist dominates the night, a skaa street urchin discovers her powers and joins a group of rebels to overthrow the Final Empire.",
+    "Price": "14.99",
+    "status": true
+},
+{
+    "id": 86,
+    "Bookname": "The Priory of the Orange Tree",
+    "Author": "Samantha Shannon",
+    "Category": "Fantasy",
+    "Image": "https://t1.bookpage.com/wp-content/uploads/2022/12/20121756/dayoffallennight.jpg",
+    "Description": "A standalone epic fantasy novel that explores a world divided by fear and mistrust, where dragons and magic play crucial roles in the survival of humanity.",
+    "Price": "19.99",
+    "status": true
+},
+{
+    "id": 87,
+    "Bookname": "Eragon",
+    "Author": "Christopher Paolini",
+    "Category": "Fantasy",
+    "Image": "https://upload.wikimedia.org/wikipedia/en/c/ce/Eragon_book_cover.png",
+    "Description": "The first book in the Inheritance Cycle, where a young farm boy discovers a dragon egg and embarks on a journey to become a Dragon Rider.",
+    "Price": "10.99",
+    "status": true
+},
+{
+    "id": 88,
+    "Bookname": "The Once and Future King",
+    "Author": "T.H. White",
+    "Category": "Fantasy",
+    "Image": "https://m.media-amazon.com/images/I/81Pso1OY5TL._AC_UF1000,1000_QL80_.jpg",
+    "Description": "A retelling of the legend of King Arthur, from his childhood to his reign as king and the events that led to the fall of Camelot.",
+    "Price": "12.49",
+    "status": true
+},
+{
+    "id": 89,
+    "Bookname": "The Shadow of the Wind",
+    "Author": "Carlos Ruiz Zafón",
+    "Category": "Fantasy",
+    "Image": "https://m.media-amazon.com/images/I/81TvQiieKRL._AC_UF1000,1000_QL80_.jpg",
+    "Description": "A literary thriller set in post-war Barcelona, where a young boy discovers a mysterious book that leads him into a dark world of secrets and intrigue.",
+    "Price": "13.49",
+    "status": true
+},
+{
+    "id": 90,
+    "Bookname": "The Fifth Season",
+    "Author": "N.K. Jemisin",
+    "Category": "Fantasy",
+    "Image": "https://rukminim2.flixcart.com/image/850/1000/kkprmvk0/book/g/8/a/the-fifth-season-original-imagyy3smwtzgm2s.jpeg?q=90&crop=false",
+    "Description": "The first book in the Broken Earth trilogy, set in a world plagued by apocalyptic events, where a woman with extraordinary abilities must protect her daughter and uncover the secrets of her world.",
+    "Price": "15.49",
+    "status": true
+},
+{
+    "id": 91,
+    "Bookname": "The Black Prism",
+    "Author": "Brent Weeks",
+    "Category": "Fantasy",
+    "Image": "https://www.hachettebookgroup.com/wp-content/uploads/2023/09/9780316568579-4.jpg?w=185",
+    "Description": "The first book in the Lightbringer series, where magic is based on light and color, and a powerful leader must confront a dangerous secret from his past.",
+    "Price": "16.49",
+    "status": true
+},
+{
+    "id": 92,
+    "Bookname": "Good Omens",
+    "Author": "Neil Gaiman and Terry Pratchett",
+    "Category": "Fantasy",
+    "Image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCRLHSyYZ52ujjd-CuHh5xEiyzg_iPXCONVw&s",
+    "Description": "A comedic tale of an angel and a demon who team up to prevent the apocalypse, as the forces of Heaven and Hell prepare for the end of the world.",
+    "Price": "12.99",
+    "status": true
+},
+{
+    "id": 93,
+    "Bookname": "The Silmarillion",
+    "Author": "J.R.R. Tolkien",
+    "Category": "Fantasy",
+    "Image": "https://m.media-amazon.com/images/I/619KVapn5SL._AC_UF1000,1000_QL80_.jpg",
+    "Description": "A collection of mythopoeic stories that form the prequel to The Hobbit and The Lord of the Rings, detailing the creation of Middle-earth and the epic tales of its earliest ages.",
+    "Price": "17.49",
+    "status": true
+},
+{
+    "id": 94,
+    "Bookname": "The Dark Tower: The Gunslinger",
+    "Author": "Stephen King",
+    "Category": "Fantasy",
+    "Image": "https://m.media-amazon.com/images/I/81C-id1AKuL._AC_UF1000,1000_QL80_.jpg",
+    "Description": "The first book in The Dark Tower series, where a lone gunslinger named Roland embarks on a quest to find the mysterious Dark Tower, encountering strange worlds and characters along the way.",
+    "Price": "14.99",
+    "status": true
+}
+
+
+]
