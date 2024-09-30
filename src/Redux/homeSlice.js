@@ -20,10 +20,7 @@ const homeSlice = createSlice({
         statusvalue :'',
         color:'greenyellow',
         searchbook:'',
-        findedbooks:[]
-
-
-     
+        findedbooks:[] 
     },
         reducers:{
 

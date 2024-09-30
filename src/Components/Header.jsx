@@ -30,7 +30,7 @@ const Header = () => {
          </Link>
         
           <NavDropdown title="category" id="navbarScrollingDropdown"> 
-          <NavDropdown.Item href="/fantasy" >Fantasy</NavDropdown.Item>
+          <NavDropdown.Item href="./fantasy" >Fantasy</NavDropdown.Item>
             <NavDropdown.Divider />
             <NavDropdown.Item href="/sciencefiction">
             Science Fiction
