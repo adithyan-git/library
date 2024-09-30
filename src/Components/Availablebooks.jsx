@@ -12,14 +12,14 @@ const Availablebooks = () => {
 
     <Container fluid className='available-container'>
         <Row>
-          <Col lg={12}>
+          <Col  lg={12}>
             <div className='add-btn'>
                <Link to='/addbook'> <Button>+AddBook+</Button></Link>
             </div>
           </Col>
 
           {allbooks.map((book)=>(
-              <Col lg={2} key={book.id}> 
+              <Col sm={6} md={3} lg={2} key={book.id}> 
               <div className='available-main-div'>
                   <div className='available-img-div'>
                         <Link to='/details'>  <img src={book.Image} alt="" onClick={()=>dispatch(details(book))} /></Link>

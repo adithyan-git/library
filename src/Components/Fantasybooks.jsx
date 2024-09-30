@@ -21,7 +21,7 @@ const Fantasybooks = () => {
    <Container fluid className='fantasy-container'>
     <Row>
        {fantasyCategoryBooks.map((fantasyCategoryBook)=>(
-         <Col lg={2} className='fantasy-col' key={fantasyCategoryBook.id}>
+         <Col sm={6} md={3} lg={2} className='fantasy-col' key={fantasyCategoryBook.id}>
        
         <div className='fantassy-maindiv'>
           <div className='fantasy-imgdiv'>

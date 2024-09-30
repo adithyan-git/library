@@ -22,7 +22,7 @@ const ScienceFictionbooks = () => {
    <Container fluid className='fiction-container'>
     <Row>
      {sciencefictionbooks.map((sciencefictionbook)=>(
-       <Col lg={2}>
+       <Col sm={6} md={3} lg={2}>
           <div className='sciencefiction-maindiv'>
             <div className='fiction-img'>
              <Link to="/details"> <img src={sciencefictionbook.Image} alt=""  onClick={()=>{dispatch(details(sciencefictionbook))}}/></Link>

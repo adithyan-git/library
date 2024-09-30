@@ -110,8 +110,7 @@ font-size: 28px;
     margin-bottom: 10px;
     margin-top: 30px;
     background:linear-gradient(45deg, #64B3F4, #C2E59C);
-    box-shadow: 8px -6px 6px;
-    
+    box-shadow: 8px -6px 6px;   
 }
 .top-col{
     display: flex;
@@ -173,12 +172,7 @@ font-size: 28px;
     text-decoration: none;
     color:white;
 }
-.favorite-table{
-    /* padding: 50px 30px; */
-    background: url(https://th.bing.com/th/id/R.64ec2963d1f2127e43b25638b317d3fc?rik=PjeVsFxvo1Nn2g&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f12%2fAbstract-Green-Wallpaper-HD.jpg&ehk=U4JPpq0tgVDezHTGiBlJGPfTcB0GvW7cNF6bt2BfosA%3d&risl=&pid=ImgRaw&r=0);
 
-
-}
 .img-head{
     width: 100px;
 }
@@ -259,7 +253,7 @@ margin-left: 40PX;
 .details-btn{
 
     border-radius: 10px;
-    width: 830px;
+  
     background-color: black !important;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
@@ -308,7 +302,7 @@ margin-left: 40PX;
     margin-left: 10px;
     background-color: green;
 
-}
+} 
 .svg1{
     margin-right: 10px;
     background-color: darksalmon;
@@ -328,12 +322,6 @@ margin-left: 40PX;
     border-radius: 10px;
     border: solid 1px gray;
     background:linear-gradient(45deg, #E3FDF5, #FFE6FA);
-}
-
-.table-container{
-    /* background: linear-gradient(45deg, #233b10, #000000); */
-background: url(https://images.freecreatives.com/wp-content/uploads/2016/02/Sparkles-Yellow-Background-Wallpaper.jpg);
-    
 }
 .bookname{
     color: aliceblue !important;
@@ -364,7 +352,7 @@ background: url(https://images.freecreatives.com/wp-content/uploads/2016/02/Spar
     font-size: 10px;
 }
 .fantasy-container span{
-    margin-left: 197px;
+    margin-left: 113px;
 }
 
 .fantasy-container svg:hover{
@@ -409,7 +397,7 @@ background: url(https://images.freecreatives.com/wp-content/uploads/2016/02/Spar
 }
 
 .sciencefiction-maindiv p{
-    font-size: 10px;
+    font-size: 7px;
 }
 
 .cart-svg{
@@ -419,7 +407,7 @@ padding: 10px 10px;
 }
 
 .sciencefiction-maindiv svg{
-    margin-left: 190px;
+    margin-left: 41px;
     cursor: pointer;
 }
 .fiction-content{
@@ -444,11 +432,9 @@ padding: 10px 10px;
     width: 100%;
     height: 200px;
 }
-.top-container{
-    /* background: no-repeat url(https://www.hdwallpapers.in/download/deep_space_nebula_4k_8k-3840x2400.jpg); */
+.fiction-content h6{
+    font-size: 10px;
 }
-/* css code */
-
 .image-div img{
     width: 100%;
     height: 200px;
@@ -468,14 +454,20 @@ padding: 10px 10px;
 }
 .historical-content{
     background: linear-gradient(to left, #682179, #009E5C);
-    height: 1000px;
+   
 }
 
 .content-div{
     margin-top: 5px;
 }
+.content-div h6{
+    font-size: 10px;
+}
+.content-div p{
+    font-size: 7px;
+}
 .main-div span{
-    margin-left: 205px;
+    margin-left: 38px;
 }
 .dropdown-menu{
     background:linear-gradient(to bottom,#FFF5C3,#9452A5);
@@ -525,7 +517,7 @@ padding: 10px 10px;
 }
 .available-container{
     padding-top: 100px;
-    background: url(https://wallpapers.com/images/hd/green-blue-galaxy-with-celestial-bodies-asnokt9uqozizcjf.jpg);
+   
 }
 .available-content-div{
     color: aliceblue;
@@ -583,31 +575,31 @@ padding: 10px 10px;
     background: linear-gradient(45deg, #11f700, #d9490efc) !important;
 }
 #navbarScroll{
-    margin-left: 114px;
-    margin-right: 36px;
+    margin-left: 114px !important;
+    margin-right: 196px !important;
 }
 .home-row{
     justify-content: center;
 }
 .romance-content{
     background: linear-gradient(to left , #221738,#3C7055);
-    height: 100vh;
+    
 }
 .mystery-container{
     background: linear-gradient(to left , #122D94,#D5EFF4);
-    height: 100vh;
+ 
 }
 .thriller-container{
     background: linear-gradient(to left , #AFF1DA,#F9EA8F);
-    height: 100vh;
+   
 }
 .horror-container{
     background: linear-gradient(to left , #C79081,#DFA579);
-    height: 100vh;
+   
 }
 .literary-fiction-container{
     background: linear-gradient(to left , #EE9CA7,#FFDDE1);
-    height: 100vh;
+   
 }
 .advanture-container{
     background: linear-gradient(to left , #FDDB92,#D1FDFF);
@@ -650,4 +642,242 @@ padding: 10px 10px;
     width: fit-content;
     padding: 10px 15px;
     border-radius: 15px;
+}
+@media screen and (min-width:390px) {
+    .navbar-toggler{
+
+        margin-right: 100px;
+    }
+}
+@media screen and (max-width:416px) {
+    .topbook-div h1{
+        font-size: 20px;
+        padding: 10px 31px;
+    }
+}
+@media screen and (max-width:512px){
+    .ft-para p{
+        font-size: 10px;
+    }
+}
+@media screen and (max-width:253px){
+    .ft-para{
+        margin-top: 44px;
+    }
+    
+}
+
+@media screen and (max-width:216px){
+    .top-list{
+        width: 175px !important;
+    }
+    .top-list img{
+        width: 124px !important;
+        height: 131px !important;
+    }
+    .hombook-content h6{
+        font-size: 8px !important;
+    }
+    .hombook-content p{
+        font-size: 7px !important;
+    }
+
+}
+
+@media screen and (max-width:254px){
+    .top-list{
+        width: 216px;
+    }
+    .top-list img{
+        width: 163px;
+        height: 160px;
+    }
+    .hombook-content h6{
+        font-size: 12px;
+    }
+    .hombook-content p{
+        font-size: 10px;
+    }
+
+}
+
+@media screen and (max-width:227px) {
+    .navbar-brand{
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:285px) {
+    #navbarScroll{
+        margin-left: 0px !important;
+    margin-right: 0px !important;
+    }
+}
+
+@media screen and (max-width:992px){
+    .link{
+        padding:0px 20px;
+    }
+    .link-books{
+        margin: 0px;
+        padding:0px 20px ;
+    }
+}
+@media screen and (max-width:577px){
+    .caption-2 h3{
+        font-size:11px !important;
+    }
+    .caption-2 p{
+       font-size: 6px  !important;
+    }
+    .caption-2 {
+        top: 66px !important;
+        left: 33px !important;
+        width: 320px !important;
+    }
+    .caption-1 h3{
+        font-size: 11px !important;
+    }
+    .caption-1 p{
+        font-size: 6px !important;
+    }
+    .caption-1{
+        top: 79px !important;
+        left: 83px !important;
+        width: 320px !important;
+    }
+    .caption-3{
+        width: 320px !important;
+        left: 14% !important;
+    }
+    .caption-3 h3{
+        font-size: 11px !important;
+    }
+    .caption-3 p{
+        font-size: 6px !important;
+    }
+    .details-container{
+        height: 227vh !important;
+    }
+}
+@media screen and (max-width:382px) {
+    .caption-2{
+        width: 161px !important ;
+    }
+    .caption-1{
+        width: 161px !important;
+    }
+    .caption-3{
+        width: 161px !important;
+    }
+}
+
+@media screen and (max-width:769px) {
+    .caption-1{
+        top: 34px;
+        width: 59%;
+    }
+    .caption-1 h3{
+        font-size: 21px;
+    }
+    .caption-1 p{
+        font-size: 8px;
+    }
+    .caption-2{
+        top: 34px;
+        left: 11%;
+        width: 65%;
+    }
+    .caption-2 h3{
+        font-size: 21px;
+    }
+    .caption-2 p{
+        font-size: 8px;
+    }
+    .caption-3{
+        top: 10%;
+        left: 13%;
+        width: 74%;
+    }
+    .caption-3 h3{
+        font-size: 21px;
+    }
+    .caption-3 p{
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width:1356px) {
+    .caption-1{
+        top: 34px;
+        width: 59%;
+    }
+    .caption-1 h3{
+        font-size: 19px;
+    }
+    .caption-1 p{
+        font-size: 15px;
+    }
+    .caption-2{
+        top: 39px;
+        left: 13%;
+        width: 52%;
+    }
+    .caption-2 h3{
+        font-size: 19px;
+    }
+    .caption-2 p{
+        font-size: 15px;
+    }
+    .caption-3{
+        top: 10%;
+        left: 13%;
+        width: 74%;
+    }
+    .caption-3 h3{
+        font-size: 19px;
+    }
+    .caption-3 p{
+        font-size: 15px;
+    }
+    .details-container{
+        height: 155vh;
+    }
+    .status{
+        margin-left: 8px !important;
+    }
+    
+}
+@media screen and (max-width:334px) {
+    #navbarScroll{
+        margin-left: 13px !important;
+
+    }
+    
+}
+@media screen and (max-width:992px) {
+    #navbarScroll{
+        margin-left: 25px !important;
+    }
+   
+    
+}
+@media screen and (max-width:993px) {
+  
+    .details-container{
+        height: 210vh !important;
+    }
+    
+}
+@media screen and (max-width:1384px) {
+    .fantassy-maindiv{
+        width: 100% !important;
+    }
+    
+}
+@media screen and (min-width:992px) {
+    .fantasy-container span{
+        margin-left: 30px;
+    }
+    
 }

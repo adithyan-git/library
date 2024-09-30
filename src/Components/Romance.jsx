@@ -15,7 +15,7 @@ const Romance = () => {
     <Container fluid className='container-main romance-content'>
     <Row>
     {romancebooks.map((romancebook)=>(
-        <Col lg={2} key={romancebook.id}>
+        <Col sm={6} md={3} lg={2} key={romancebook.id}>
 
         <div className='main-div'>
               <div className='image-div'>

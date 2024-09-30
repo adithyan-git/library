@@ -13,7 +13,7 @@ const Mystery = () => {
     <Container fluid className='container-main mystery-container'>
       <Row>
       {mysterybooks.map((mysterybook)=>(
-          <Col lg={2} key={mysterybook.id}>
+          <Col sm={6} md={3} lg={2} key={mysterybook.id}>
           <div className='main-div'>
                 <div className='image-div'>
                    <Link to='/details'> <img src={mysterybook.Image} alt=""  onClick={()=>dispatch(details(mysterybook))}/></Link>

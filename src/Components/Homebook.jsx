@@ -29,7 +29,7 @@ const Homebook = () => {
         {allbooksitems.map((singlebookitem,index)=>(
 
            index < 10 && (
-                    <Col lg={3} className='top-col ' key={singlebookitem.id}>
+                    <Col sm={6} md={4} lg={3} className='top-col ' key={singlebookitem.id}>
                
                     <div className='top-list'>
                     <div className='top-btn-div'>

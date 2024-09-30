@@ -11,7 +11,7 @@ const Addbook = () => {
   return (
     <Container fluid className='addbook-container'>
         <Row>
-            <Col lg={6} className='mx-auto add-col'>
+            <Col  lg={6} className='mx-auto add-col'>
             <Form className='form-add'>
                 <Form.Group className='mb-3' controlId='formgroup1' >
                     <Form.Label className='label' >BookName</Form.Label>

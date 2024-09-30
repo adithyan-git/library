@@ -16,10 +16,10 @@ const Historicalfictionbook = () => {
     <Container fluid className='container-main historical-content'>
       <Row>
       {historicalfictionbooks.map((historicalfictionbook)=>(
-          <Col lg={2} key={historicalfictionbook.id}>
+          <Col sm={6} md={3} lg={2} key={historicalfictionbook.id}>
           <div className='main-div'>
                 <div className='image-div'>
-                   <Link to='/details'> <img src={historicalfictionbook.Image} alt=""  onClick={()=>dispatch(details(historicalfictionbook))}/></Link>
+                   <Link to='/details'><img src={historicalfictionbook.Image} alt=""  onClick={()=>dispatch(details(historicalfictionbook))}/></Link>
                 </div>
                 <div className='content-div'>
                     <h6>

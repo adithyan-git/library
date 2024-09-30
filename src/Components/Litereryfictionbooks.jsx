@@ -12,7 +12,7 @@ const Litereryfictionbooks = () => {
     <Container fluid className='container-main literary-fiction-container'>
     <Row>
     {litererybooks.map((litererybook)=>(
-        <Col lg={2} key={litererybook.id}>
+        <Col sm={6} md={3} lg={2} key={litererybook.id}>
         <div className='main-div'>
               <div className='image-div'>
                  <Link to='/details'> <img src={litererybook.Image} alt=""  onClick={()=>dispatch(details(litererybook))}/></Link>
@@ -21,8 +21,7 @@ const Litereryfictionbooks = () => {
                   <h6>
                   {litererybook.Bookname}
                   </h6>
-                  <p>
-                     
+                  <p>   
                       {litererybook.Description}
                   </p>
                   <p>{litererybook.Price}

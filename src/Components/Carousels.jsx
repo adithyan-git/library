@@ -4,7 +4,7 @@ import { Carousel } from 'react-bootstrap'
 const Carousels = () => {
   return (
 
-        <Carousel slide={false}  className='carousel-img'>
+        <Carousel  className='carousel-img'>
         <Carousel.Item>
         <img src="https://live.staticflickr.com/1907/45491294351_346e1f51c1_b.jpg" alt="" />
 
