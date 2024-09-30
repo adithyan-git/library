@@ -533,6 +533,10 @@ padding: 10px 10px;
     justify-content: end;
     padding-bottom: 30px;
 }
+.hyper-link{
+    text-decoration: none;
+    color: #000000;
+}
 .add-col{
     background-color: #f5f5dc70;
     box-shadow: 4px -4px 4px;

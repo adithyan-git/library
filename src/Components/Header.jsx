@@ -30,40 +30,40 @@ const Header = () => {
          </Link>
         
           <NavDropdown title="category" id="navbarScrollingDropdown"> 
-          <NavDropdown.Item href="./fantasy" >Fantasy</NavDropdown.Item>
+          <Link  to="/fantasy"  className='hyper-link'>Fantasy</Link>
             <NavDropdown.Divider />
-            <NavDropdown.Item href="/sciencefiction">
+            <Link to="/sciencefiction"  className='hyper-link'>
             Science Fiction
-            </NavDropdown.Item>
+            </Link>
             <NavDropdown.Divider />
-            <NavDropdown.Item href="/historicalfiction">
+            <Link to="/historicalfiction"  className='hyper-link'>
              Historical Fiction
-            </NavDropdown.Item>
+            </Link>
             <NavDropdown.Divider />
-            <NavDropdown.Item href="/romance">
+            <Link to="/romance"  className='hyper-link'>
             Romance
-            </NavDropdown.Item>
+            </Link>
             <NavDropdown.Divider />
-            <NavDropdown.Item href="/mystery">
+            <Link to="/mystery"  className='hyper-link' >
             Mystery 
-            </NavDropdown.Item>
+            </Link>
             <NavDropdown.Divider/>
-            <NavDropdown.Item href="/thriller">
+            <Link to="/thriller"  className='hyper-link'>
             Thriller
-            </NavDropdown.Item>
+            </Link>
             <NavDropdown.Divider />
-            <NavDropdown.Item href="/horror">
+            <Link to="/horror"  className='hyper-link'>
             Horror
-            </NavDropdown.Item>
+            </Link>
             <NavDropdown.Divider />
-            <NavDropdown.Item href="/litereryficton">
+            <Link to="/litereryficton"  className='hyper-link'>
             Literary Fiction
-            </NavDropdown.Item>
+            </Link>
             <NavDropdown.Divider />
         
-            <NavDropdown.Item href="/advanture">
+            <Link to="/advanture"  className='hyper-link'>
             Adventure
-            </NavDropdown.Item>
+            </Link>
        
           
           </NavDropdown>  
