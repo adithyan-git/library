@@ -15,7 +15,7 @@ const homeSlice = createSlice({
         pricevalue:'',
         description:'',
         category:'',
-        image:null,
+        image:'',
         id:'',
         statusvalue :'',
         color:'greenyellow',

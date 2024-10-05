@@ -40,7 +40,7 @@ const Addbook = () => {
 
                 <Form.Group className='mb-3' controlId='formgroup6'>
                     <Form.Label className='label'>Image</Form.Label>
-                    <Form.Control className='input' type='text' required  onChange={(e)=>{setImage(e.target.value)}} />
+                    <Form.Control className='input' type='text' required  onChange={(e)=>{dispatch(setImage(e.target.value))}} />
                 </Form.Group>
               <div className='sub-div'>
                 <Link to='/availablebooks'><Button onClick={(e)=>dispatch(submit(e))} className='submit-btn'>Submit</Button></Link>

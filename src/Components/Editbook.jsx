@@ -50,7 +50,7 @@ const Editbook = () => {
 
                     <Form.Group className='mb-3' controlId='formgroup3'>
                         <Form.Label className='label'>Image</Form.Label>
-                        <Form.Control type='file' onChange={(e)=>dispatch(setImage(e.target.files[0]))} />
+                        <Form.Control type='text' onChange={(e)=>dispatch(setImage(e.target.value))} />
                     </Form.Group>
 
                     <Link to=''><Button  onClick={(e)=>{dispatch(proceed({id,bookName,authorName,itemPrice,itemDescription,itemCategory,itemImage}))}}>proceed</Button></Link>
