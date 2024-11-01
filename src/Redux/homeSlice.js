@@ -236,7 +236,7 @@ const homeSlice = createSlice({
                 state.allbookdata[index].Price = state.pricevalue
                 state.allbookdata[index].Description = state.description
                 state.allbookdata[index].Category = state.category
-                state.allbookdata[index].Image = state.image.files             
+                state.allbookdata[index].Image = state.image             
             },
             setSearch:(state,action)=>{
                 state.searchbook = action.payload

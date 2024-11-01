@@ -50,10 +50,10 @@ const Editbook = () => {
 
                     <Form.Group className='mb-3' controlId='formgroup3'>
                         <Form.Label className='label'>Image</Form.Label>
-                        <Form.Control type='text' onChange={(e)=>dispatch(setImage(e.target.value))} />
+                        <Form.Control type='text'value={itemImage} onChange={(e)=>dispatch(setImage(e.target.value))} />
                     </Form.Group>
 
-                    <Link to=''><Button  onClick={(e)=>{dispatch(proceed({id,bookName,authorName,itemPrice,itemDescription,itemCategory,itemImage}))}}>proceed</Button></Link>
+                    <Link to='/availablebooks'><Button  onClick={(e)=>{dispatch(proceed({id,bookName,authorName,itemPrice,itemDescription,itemCategory,itemImage}))}}>proceed</Button></Link>
                 </Form>
             </Col>
         </Row>
